@@ -1,4 +1,6 @@
-{
+{ 
+  
+  
   "name": "fcc-learn-node-with-express",
   "version": "0.1.0",
   "dependencies": {
@@ -9,7 +11,8 @@
     "fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
   },
   "main": "server.js",
+
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   }
 }
